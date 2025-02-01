@@ -1,0 +1,3218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A collection of classic games and source code. Copy HTML, CSS, and JavaScript easily!"
+    />
+    <meta
+      name="keywords"
+      content="games, HTML, CSS, JavaScript, source code, copy"
+    />
+    <meta name="author" content="Fariat" />
+    <title>Racing Limit</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="web-page_Racing-Limit.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="container">
+        <h1 class="Heading_Pro">Racing Limit</h1>
+
+        <h2>HTML</h2>
+        <textarea height="600px" id="html-code" readonly>
+            <html lang="en" dir="ltr" translate="no">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style data-emotion="css-global" data-s="">
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        box-sizing: border-box;
+        -webkit-text-size-adjust: 100%;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+      strong,
+      b {
+        font-weight: 700;
+      }
+      body {
+        margin: 0;
+        color: #f9faff;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        background-color: #0c0d14;
+      }
+      @media print {
+        body {
+          background-color: #fff;
+        }
+      }
+      body::backdrop {
+        background-color: #0c0d14;
+      }
+      @font-face {
+        font-family: Nunito-fallback;
+        size-adjust: 101.44000000000005%;
+        ascent-override: 109%;
+        src: local("Arial");
+      }
+      html {
+        scrollbar-width: thin;
+        scrollbar-color: #aaadbe transparent;
+      }
+      html::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background: rgba(0, 0, 0, 0);
+      }
+      html::-webkit-scrollbar-thumb {
+        background: #aaadbe;
+        border-radius: 30px;
+      }
+      html::-webkit-scrollbar-corner {
+        background: rgba(0, 0, 0, 0);
+      }
+      body {
+        overflow-y: overlay;
+        font-size: 14px;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      button {
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 900;
+        color: #fff;
+        margin-block: 0;
+      }
+      h1 {
+        font-size: 24px;
+        line-height: 31px;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      @media (max-width: 1509.95px) {
+        h2 {
+          font-size: 0.875rem;
+        }
+      }
+      h3 {
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 900;
+        color: #fff;
+      }
+      a {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+    <style
+      data-emotion="css 1f20jmh 1geg79l 1myf5r1 6qu7l6 15nij48 1vhz41m v5k1q0 sepbq7 174kd1d 4ypg9l 188g3r0 ta5pm1 148wt6v 1ibfcce 1hjjlbf 1l8874j 17r7lae t2sft linpkp 19dlbhf uwwqev 1s62qvg 13o7eu2 1aw1elk mk0kh9 1dm7ec5 ujjn8y y8aj3r 12nnmww 1ttp6zk 1g10nz7 1i6bfbx qcm3mf zot7lp 12hp3i5 n8optg 16rvtsf exrwgm ez83vb j7h1cu 1fxkl5r krtp4i 4ydurg u8t62k 1k0avvz 1h6nq0a 18e8ait 1r63h7m 1iyh3ri 1hy9t21 isex94"
+      data-s=""
+    >
+      .css-1f20jmh {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: stretch;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        background: #0c0d14;
+        position: relative;
+      }
+      .css-1geg79l {
+        z-index: 12;
+        position: fixed;
+        background-image: none;
+        background: rgba(33, 34, 51, 0.9);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 60px;
+        -webkit-box-flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+          0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+      }
+      .css-1geg79l .MuiBackdrop-root {
+        z-index: -1;
+      }
+      .css-1myf5r1 {
+        border-radius: 30px;
+        -webkit-transition: all 250ms ease;
+        transition: all 250ms ease;
+        border: none;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14";
+        font-weight: 800;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 0;
+        background: transparent;
+        color: #eff0f7;
+        height: 48px;
+        width: 48px;
+        margin-right: 4px;
+      }
+      .css-1myf5r1:active {
+        color: rgba(170, 173, 190, 0.8);
+      }
+      @media (hover: hover) {
+        .css-1myf5r1:hover {
+          color: rgba(170, 173, 190, 0.8);
+        }
+      }
+      .css-1myf5r1.Mui-disabled {
+        background: #28293d;
+        color: #474967;
+        cursor: default;
+      }
+      .css-1myf5r1 svg {
+        height: 24px;
+        width: 24px;
+      }
+      @media (max-width: 388.95px) {
+        .css-1myf5r1 {
+          display: none;
+        }
+      }
+      .css-6qu7l6 {
+        display: inline-block;
+        fill: currentcolor;
+        height: 24px;
+        width: 24px;
+      }
+      .css-15nij48 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        margin-right: 16px;
+        margin-left: 4px;
+      }
+      .css-15nij48 svg {
+        fill: white;
+        height: 100%;
+      }
+      .css-1vhz41m {
+        height: 35px;
+        position: relative;
+        margin-right: 8px;
+      }
+      @media (hover: hover) {
+        .css-1vhz41m:hover {
+          -webkit-animation-name: animation-1nudq4e;
+          animation-name: animation-1nudq4e;
+          -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+          -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+      }
+      .css-v5k1q0 {
+        height: 35px;
+        padding-top: 3px;
+      }
+      @media (max-width: 321.95px) {
+        .css-v5k1q0 {
+          display: none;
+        }
+      }
+      @media (min-width: 1082px) {
+        .css-sepbq7 {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+      }
+      @media (max-width: 1081.95px) {
+        .css-sepbq7 {
+          position: relative;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+        }
+      }
+      @media (max-width: 699.95px) {
+        .css-sepbq7 {
+          display: none;
+        }
+      }
+      .css-174kd1d {
+        border-radius: 30px;
+        fill: #aaadbe;
+        height: 40px;
+        background-color: #373952;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0px 0px;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #aaadbe;
+        outline: 0;
+        padding-left: 16px;
+        opacity: 0.2;
+      }
+      .css-174kd1d:focus {
+        border-color: #6842ff;
+      }
+      .css-174kd1d::-webkit-input-placeholder {
+        color: #aaadbe;
+        opacity: 1;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      .css-174kd1d::-moz-placeholder {
+        color: #aaadbe;
+        opacity: 1;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      .css-174kd1d:-ms-input-placeholder {
+        color: #aaadbe;
+        opacity: 1;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      .css-174kd1d::placeholder {
+        color: #aaadbe;
+        opacity: 1;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14", Arial,
+          "Helvetica Neue", Helvetica, sans-serif;
+      }
+      @media (min-width: 600px) {
+        .css-174kd1d {
+          outline: 0;
+        }
+      }
+      @media (min-width: 1082px) {
+        .css-174kd1d {
+          width: 460px;
+          margin: auto;
+        }
+      }
+      @media (max-width: 1081.95px) {
+        .css-174kd1d {
+          width: 100%;
+        }
+      }
+      @media (min-width: 600px) {
+        .css-174kd1d {
+          outline: 0px solid;
+        }
+      }
+      @media (min-width: 1082px) {
+        .css-174kd1d {
+          width: 460px;
+          margin: auto;
+        }
+      }
+      @media (max-width: 1081.95px) {
+        .css-174kd1d {
+          width: 100%;
+        }
+      }
+      .css-4ypg9l {
+        color: #aaadbe;
+        height: 36px;
+        width: 36px;
+        padding: 0px;
+        margin: 0px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: absolute;
+        top: 2px;
+        right: 8px;
+        opacity: 0.2;
+      }
+      .css-4ypg9l svg {
+        height: 20px;
+        width: 20px;
+      }
+      .css-188g3r0 {
+        position: absolute;
+        inset: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+      .css-188g3r0 span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 2px;
+        background: #28293d;
+        border-radius: 50%;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation: wave 1s infinite ease-in-out;
+        animation: wave 1s infinite ease-in-out;
+      }
+      .css-188g3r0 span:nth-of-type(1) {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+      .css-188g3r0 span:nth-of-type(2) {
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+      }
+      .css-188g3r0 span:nth-of-type(3) {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+      }
+      @-webkit-keyframes wave {
+        0%,
+        60%,
+        100% {
+          background: #28293d;
+          -webkit-transform: translateY(0);
+          -moz-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0);
+          -moz-transform: translateY(0);
+        }
+        20% {
+          background: #55566a;
+          -webkit-transform: translateY(6px);
+          -moz-transform: translateY(6px);
+          -ms-transform: translateY(6px);
+          transform: translateY(6px);
+          -moz-transform: translateY(6px);
+        }
+        40% {
+          background: #55566a;
+          -webkit-transform: translateY(-6px);
+          -moz-transform: translateY(-6px);
+          -ms-transform: translateY(-6px);
+          transform: translateY(-6px);
+          -moz-transform: translateY(-6px);
+        }
+      }
+      @keyframes wave {
+        0%,
+        60%,
+        100% {
+          background: #28293d;
+          -webkit-transform: translateY(0);
+          -moz-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0);
+          -moz-transform: translateY(0);
+        }
+        20% {
+          background: #55566a;
+          -webkit-transform: translateY(6px);
+          -moz-transform: translateY(6px);
+          -ms-transform: translateY(6px);
+          transform: translateY(6px);
+          -moz-transform: translateY(6px);
+        }
+        40% {
+          background: #55566a;
+          -webkit-transform: translateY(-6px);
+          -moz-transform: translateY(-6px);
+          -ms-transform: translateY(-6px);
+          transform: translateY(-6px);
+          -moz-transform: translateY(-6px);
+        }
+      }
+      .css-ta5pm1 {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        -webkit-transition: background-color 225ms cubic-bezier(0.4, 0, 0.2, 1)
+          0ms;
+        transition: background-color 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        -webkit-tap-highlight-color: transparent;
+        z-index: 11;
+      }
+      .css-148wt6v {
+        margin: 0;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        border-width: 0;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.12);
+        border-bottom-width: thin;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+      @media (min-width: 0px) {
+        .css-1ibfcce {
+          display: none;
+        }
+      }
+      @media (min-width: 1910px) {
+        .css-1ibfcce {
+          display: block;
+        }
+      }
+      .css-1ibfcce button.sidebarContactButton {
+        width: 176px;
+        margin-left: 12px;
+        margin-top: 8px;
+      }
+      .css-1hjjlbf {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 16px;
+      }
+      @media (min-width: 0px) {
+        .css-1hjjlbf {
+          display: none;
+        }
+      }
+      @media (min-width: 1910px) {
+        .css-1hjjlbf {
+          display: block;
+        }
+      }
+      .css-1hjjlbf button {
+        min-width: unset;
+        width: 165px;
+      }
+      .css-1l8874j {
+        border-radius: 30px;
+        -webkit-transition: all 250ms ease;
+        transition: all 250ms ease;
+        border: 1px solid #eff0f7;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: "__Nunito_c77b14", "__Nunito_Fallback_c77b14";
+        font-weight: 800;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 8px 16px;
+        background: transparent;
+        color: #eff0f7;
+        height: 40px;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-width: 2px;
+        border-color: #2f3148;
+        height: 35px;
+        min-width: 35px;
+        width: 35px;
+      }
+      .css-1l8874j:active {
+        border-color: rgba(135, 138, 158, 0.7);
+      }
+      @media (hover: hover) {
+        .css-1l8874j:hover {
+          color: rgba(170, 173, 190, 0.8);
+        }
+      }
+      .css-1l8874j.Mui-disabled {
+        background: #28293d;
+        color: #474967;
+        cursor: default;
+      }
+      .css-1l8874j svg {
+        height: 20px;
+        width: 20px;
+        margin-right: 8px;
+      }
+      .css-1l8874j:focus {
+        outline: none;
+      }
+      .css-1l8874j:hover {
+        border-width: 2px;
+        border-color: #6842ff;
+      }
+      .css-1l8874j svg {
+        margin-right: 0;
+      }
+      .css-17r7lae {
+        display: inline-block;
+        fill: currentcolor;
+        height: 24px;
+        width: 24px;
+        min-width: 15px;
+        width: 15px;
+        height: 15px;
+      }
+      .css-t2sft {
+        min-height: calc(100vh - 60px - 8px);
+        margin-top: 60px;
+      }
+      @media (max-width: 1909.95px) {
+        .css-t2sft {
+          padding-left: 60px;
+        }
+      }
+      @media (min-width: 1910px) {
+        .css-t2sft {
+          padding-left: 200px;
+        }
+      }
+      .css-linpkp {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        height: 100vh;
+      }
+      .css-19dlbhf {
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(/images/background2.jpg);
+        background-repeat: repeat;
+      }
+      .css-uwwqev {
+        width: 100%;
+        height: 100%;
+      }
+      .css-1s62qvg {
+        display: inline-block;
+        color: #1a1b28;
+        -webkit-animation: animation-61bdi0 1.4s linear infinite;
+        animation: animation-61bdi0 1.4s linear infinite;
+        color: white;
+      }
+      .css-13o7eu2 {
+        display: block;
+      }
+      .css-1aw1elk {
+        stroke: currentColor;
+        stroke-dasharray: 80px, 200px;
+        stroke-dashoffset: 0;
+      }
+      .css-mk0kh9 {
+        text-transform: uppercase;
+        font-size: 11.2px;
+        text-align: center;
+        margin-left: 4px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        position: absolute;
+        transform-origin: right;
+      }
+      .css-1dm7ec5 > div {
+        background: #fff;
+      }
+      .css-ujjn8y {
+        display: grid;
+        -webkit-box-flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        content-visibility: visible;
+        margin-top: -4px;
+        margin-left: -4px;
+        padding: 0;
+        width: 100%;
+        -webkit-column-gap: 6px;
+        column-gap: 6px;
+        row-gap: 6px;
+        margin: 0;
+      }
+      @media only screen and (max-width: 959px) {
+        .css-ujjn8y {
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          padding-left: inherit;
+        }
+      }
+      @media (max-width: 1081.95px) {
+        .css-ujjn8y {
+          padding-right: 0;
+          padding-left: 0;
+          margin-left: 0;
+          width: 100%;
+        }
+      }
+      .css-ujjn8y .skeleton {
+        margin: 4px;
+        height: 0 !important;
+        padding-top: calc(100 / 178 * (100% - 4px)) !important;
+      }
+      @media (min-width: 1778px) {
+        .css-ujjn8y .skeleton {
+          margin: 6px;
+        }
+      }
+      .css-ujjn8y a {
+        box-sizing: content-box;
+      }
+      @media (min-width: 0px) {
+        .css-ujjn8y a {
+          margin: 2px;
+        }
+      }
+      @media (min-width: 1778px) {
+        .css-ujjn8y a {
+          margin: 4px;
+        }
+      }
+      .css-y8aj3r {
+        padding: 0;
+      }
+      .css-12nnmww {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        background-color: #1a1b28;
+        border-width: 0;
+        border-radius: 8px;
+        color: #fff;
+        padding-right: 8px;
+        padding-left: 24px;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        line-height: 1.5;
+      }
+      .css-12nnmww a {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: #a48eff;
+        font-weight: 700;
+      }
+      .css-12nnmww a:hover {
+        color: #6842ff;
+      }
+      @media (max-width: 1081.95px) {
+        .css-12nnmww {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+      @media (max-width: 1199.95px) {
+        .css-12nnmww {
+          border-radius: 0;
+        }
+      }
+      .css-1ttp6zk {
+        width: calc(100% - 300px);
+      }
+      @media (min-width: 0px) {
+        .css-1ttp6zk {
+          padding-right: 0px;
+        }
+      }
+      @media (min-width: 600px) {
+        .css-1ttp6zk {
+          padding-right: 8px;
+        }
+      }
+      @media (min-width: 1082px) {
+        .css-1ttp6zk {
+          padding-right: 16px;
+        }
+      }
+      .css-1g10nz7 {
+        width: 100%;
+      }
+      .css-1g10nz7 > p:first-of-type {
+        margin-block-start: 0;
+      }
+      .css-1g10nz7 > p:last-of-type {
+        margin-block-end: 0;
+      }
+      @media (max-width: 1279.95px) {
+        .css-1g10nz7 {
+          margin-left: 16px !important;
+          margin-right: 16px !important;
+        }
+      }
+      .css-1g10nz7 h3,
+      .css-1g10nz7 h2 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      @media (max-width: 599.95px) {
+        .css-1g10nz7 {
+          max-height: 60px;
+        }
+      }
+      @media (min-width: 600px) {
+        .css-1g10nz7 {
+          padding-bottom: 8px;
+        }
+      }
+      .css-1i6bfbx {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 100%;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        gap: 16px;
+      }
+      @media (max-width: 1279.95px) {
+        .css-1i6bfbx {
+          padding-left: 16px;
+        }
+      }
+      .css-qcm3mf {
+        display: inline-block;
+        fill: currentcolor;
+        height: 24px;
+        width: 24px;
+        margin-right: 8px;
+      }
+      .css-zot7lp {
+        max-width: 100%;
+        padding: 8px 0px;
+      }
+      @media (max-width: 1279.95px) {
+        .css-zot7lp {
+          padding: 8px 16px;
+        }
+      }
+      .css-12hp3i5 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 29px;
+      }
+      .css-n8optg {
+        color: #767a8e;
+        width: 110px;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+      }
+      .css-16rvtsf {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: baseline;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+      }
+      .css-16rvtsf div a {
+        min-height: 0 !important;
+      }
+      .css-exrwgm {
+        color: #a48eff;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .css-exrwgm:hover {
+        color: #6842ff;
+      }
+      .css-ez83vb > div {
+        display: inline-block;
+      }
+      .css-ez83vb > div > a,
+      .css-ez83vb > div > div {
+        display: inline-block;
+      }
+      .css-ez83vb > div > a {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        font-weight: normal;
+        color: #fff;
+      }
+      @media (max-width: 599.95px) {
+        .css-ez83vb > div > a {
+          min-height: 48px;
+          min-width: 48px;
+        }
+      }
+      .css-ez83vb > div > a:hover {
+        cursor: pointer;
+        color: #6842ff;
+      }
+      .css-j7h1cu > a {
+        text-transform: capitalize !important;
+        font-weight: 700 !important;
+        font-size: 14px !important;
+        color: #a48eff !important;
+      }
+      .css-j7h1cu > a:hover {
+        color: #6842ff !important;
+      }
+      .css-j7h1cu .breadcrumpSeparator {
+        font-size: 14px;
+        color: #666a7f;
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+      .css-1fxkl5r {
+        margin: 0px 8px;
+        font-size: 0.7em;
+      }
+      .css-krtp4i {
+        margin: 0;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        border-width: 0;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.12);
+        border-bottom-width: thin;
+        width: calc(100% - 16px);
+        margin-top: 4px;
+        margin-bottom: 20px;
+      }
+      @media (min-width: 0px) {
+        .css-krtp4i {
+          margin-left: 16px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .css-krtp4i {
+          margin-left: 0px;
+        }
+      }
+      .css-4ydurg {
+        width: 100%;
+      }
+      .css-4ydurg > p:first-of-type {
+        margin-block-start: 0;
+      }
+      .css-4ydurg > p:last-of-type {
+        margin-block-end: 0;
+      }
+      @media (max-width: 1279.95px) {
+        .css-4ydurg {
+          margin-left: 16px !important;
+          margin-right: 16px !important;
+        }
+      }
+      .css-4ydurg h3,
+      .css-4ydurg h2 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .css-4ydurg ol > li {
+        padding: 14px;
+      }
+      .css-4ydurg iframe {
+        width: 100%;
+      }
+      .css-u8t62k {
+        margin-top: 16px;
+        width: 100%;
+      }
+      @media (min-width: 0px) {
+        .css-u8t62k {
+          margin-left: 16px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .css-u8t62k {
+          margin-left: 0px;
+        }
+      }
+      @media (max-width: 599.95px) {
+        .css-1k0avvz {
+          display: none;
+        }
+      }
+      .css-1h6nq0a {
+        text-transform: uppercase;
+        font-size: 11.2px;
+        text-align: center;
+        margin-left: 4px;
+      }
+      .css-18e8ait {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: calc(100% - 139px);
+        margin: 16px 0px;
+      }
+      .css-18e8ait > p:first-of-type {
+        margin-block-start: 0;
+      }
+      .css-18e8ait > p:last-of-type {
+        margin-block-end: 0;
+      }
+      @media (max-width: 1279.95px) {
+        .css-18e8ait {
+          margin-left: 16px !important;
+          margin-right: 16px !important;
+        }
+      }
+      .css-18e8ait h3,
+      .css-18e8ait h2 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      @media (max-width: 1081.95px) {
+        .css-18e8ait {
+          width: 100%;
+        }
+      }
+      @media (min-width: 0px) {
+        .css-1r63h7m {
+          -webkit-transform: scale(0.9);
+          -moz-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+      }
+      @media (min-width: 600px) {
+        .css-1r63h7m {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+      .css-1iyh3ri {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+      .css-1hy9t21 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        object-fit: cover;
+        color: transparent;
+        text-indent: 10000px;
+      }
+      .css-isex94 {
+        height: 42px;
+      }
+      .css-isex94:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    </style>
+    <style data-emotion="css" data-s=""></style>
+    <meta name="robots" content="max-image-preview:large" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, width=device-width, height=device-height"
+    />
+    <title>Racing Limits 🕹️ Play on CrazyGames</title>
+    <link rel="manifest" href="https://doomsdaz.github.io/manifest" />
+    <meta http-equiv="Accept-CH" content="DPR" />
+    <meta
+      name="description"
+      content="Racing Limits is a racing game that lets you push your skills to the max. Race and overtake vehicles in city and highway traffic with four thrilling game modes: carrier, infinite, against-time, and free mode. Choose between one-way and two-way traffic, and experience three times of day - &amp;#39;Morning,&amp;#39; &amp;#39;Sunset,&amp;#39; and &amp;#39;Night.&amp;#39; With multiple camera angles, sensitive controls, and realistic physics, it&amp;#39;s a high-speed adventure you won&amp;#39;t want to miss. Customize, upgrade, and take on numerous race events in this graphically stunning racing world!"
+    />
+    <link
+      rel="canonical"
+      href="https://www.crazygames.com/game/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="ar"
+      href="https://ar.crazygames.com/game/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="cs"
+      href="https://www.crazygames.cz/hra/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.crazygames.dk/spil/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="de"
+      href="https://de.crazygames.com/spiele/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="el"
+      href="https://gr.crazygames.com/paixnidi/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.crazygames.com/game/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="es"
+      href="https://www.1001juegos.com/juego/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="fi"
+      href="https://www.crazygames.fi/peli/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://www.crazygames.fr/jeu/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="hu"
+      href="https://www.crazygames.hu/jatek/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="id"
+      href="https://www.crazygames.co.id/game/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="it"
+      href="https://it.crazygames.com/gioco/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="nb"
+      href="https://www.crazygames.no/spill/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="nl"
+      href="https://www.crazygames.nl/spel/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="pl"
+      href="https://www.crazygames.pl/gra/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="pt"
+      href="https://www.crazygames.com.br/jogos/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="ro"
+      href="https://www.crazygames.ro/joc/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="ru"
+      href="https://www.crazygames.ru/igra/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="sv"
+      href="https://www.crazygames.se/spel/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="th"
+      href="https://th.crazygames.com/%E0%B9%80%E0%B8%81%E0%B8%A1/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="tr"
+      href="https://tr.crazygames.com/oyun/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="uk"
+      href="https://www.crazygames.com.ua/gra/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="vi"
+      href="https://vn.crazygames.com/tr%C3%B2-ch%C6%A1i/racing-limits"
+    />
+    <link
+      rel="alternate"
+      hreflang="ko"
+      href="https://www.crazygames.co.kr/%EA%B2%8C%EC%9E%84/racing-limits"
+    />
+    <link
+      rel="alternate"
+      href="https://www.crazygames.com/game/racing-limits"
+      hreflang="x-default"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link
+      rel="apple-touch-icon"
+      href="https://imgs.crazygames.com/favicons/manifest-icon-3.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=120&amp;h=120&amp;fit=crop&amp;crop=entropy"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://imgs.crazygames.com/favicons/manifest-icon-3.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=152&amp;h=152&amp;fit=crop&amp;crop=entropy"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="https://imgs.crazygames.com/favicons/manifest-icon-3.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=167&amp;h=167&amp;fit=crop&amp;crop=entropy"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://imgs.crazygames.com/favicons/manifest-icon-3.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=180&amp;h=180&amp;fit=crop&amp;crop=entropy"
+    />
+    <link
+      rel="mask-icon"
+      href="https://imgs.crazygames.com/favicons/safari-pinned-tab.svg?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR"
+      color="#6842ff"
+    />
+    <link
+      rel="icon"
+      href="https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=16&amp;h=16&amp;fit=crop&amp;crop=entropy"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=32&amp;h=32&amp;fit=crop&amp;crop=entropy"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=48&amp;h=48&amp;fit=crop&amp;crop=entropy"
+      sizes="48x48"
+    />
+    <link
+      rel="icon"
+      href="https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=196&amp;h=196&amp;fit=crop&amp;crop=entropy"
+      sizes="196x196"
+    />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=144&amp;h=144&amp;fit=crop&amp;crop=entropy"
+    />
+    <meta name="apple-mobile-web-app-title" content="Racing Limits" />
+    <link rel="preconnect" href="https://pafvertizing.crazygames.com/" />
+    <meta
+      property="og:url"
+      content="https://www.crazygames.com/game/racing-limits"
+    />
+    <meta property="og:title" content="Racing Limits 🕹️ Play on CrazyGames" />
+    <meta
+      property="og:description"
+      content="Racing Limits is a racing game that lets you push your skills to the max. Race and overtake vehicles in city and highway traffic with four thrilling game modes: carrier, infinite, against-time, and free mode. Choose between one-way and two-way traffic, and experience three times of day - &amp;#39;Morning,&amp;#39; &amp;#39;Sunset,&amp;#39; and &amp;#39;Night.&amp;#39; With multiple camera angles, sensitive controls, and realistic physics, it&amp;#39;s a high-speed adventure you won&amp;#39;t want to miss. Customize, upgrade, and take on numerous race events in this graphically stunning racing world!"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:image"
+      content="https://imgs.crazygames.com/racing-limits_16x9/20231106035424/racing-limits_16x9-cover?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=1200&amp;h=630&amp;fit=crop"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="game" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://www.crazygames.com/game/racing-limits"
+    />
+    <meta
+      property="twitter:title"
+      content="Racing Limits 🕹️ Play on CrazyGames"
+    />
+    <meta
+      property="twitter:description"
+      content="Racing Limits is a racing game that lets you push your skills to the max. Race and overtake vehicles in city and highway traffic with four thrilling game modes: carrier, infinite, against-time, and free mode. Choose between one-way and two-way traffic, and experience three times of day - &amp;#39;Morning,&amp;#39; &amp;#39;Sunset,&amp;#39; and &amp;#39;Night.&amp;#39; With multiple camera angles, sensitive controls, and realistic physics, it&amp;#39;s a high-speed adventure you won&amp;#39;t want to miss. Customize, upgrade, and take on numerous race events in this graphically stunning racing world!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://imgs.crazygames.com/racing-limits_16x9/20231106035424/racing-limits_16x9-cover?auto=format%2Ccompress&amp;q=45&amp;cs=strip&amp;ch=DPR&amp;w=1200&amp;h=630&amp;fit=crop"
+    />
+    <meta name="next-head-count" content="64" />
+    <link
+      rel="preconnect"
+      href="https://workers.crazygames.com/"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://imgs.crazygames.com/" />
+    <link rel="preconnect" href="https://builds.crazygames.com/" />
+    <style>
+      .grecaptcha-badge {
+        visibility: collapse !important;
+      }
+    </style>
+    <link
+      rel="preload"
+      as="image"
+      href="./Racing-Limit_files/background2.jpg"
+    />
+    <meta name="wot-verification" content="93f0d04493fb0826d761" />
+    <meta name="format-detection" content="email=no" />
+    <link
+      rel="preload"
+      href="https://builds.crazygames.com/portal/_next/static/media/21ed5661b47f7f6d-s.p.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+      data-next-font="size-adjust"
+    />
+    <link
+      rel="preload"
+      href="./Racing-Limit_files/9703e8dc28c2dfa0.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="./Racing-Limit_files/9703e8dc28c2dfa0.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="./Racing-Limit_files/515d55370db3db06.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="./Racing-Limit_files/515d55370db3db06.css"
+      data-n-p=""
+    />
+    <link
+      rel="preload"
+      href="./Racing-Limit_files/4615757bbf5fc248.css"
+      as="style"
+    />
+    <link rel="stylesheet" href="./Racing-Limit_files/4615757bbf5fc248.css" />
+    <noscript data-n-css=""></noscript>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/js"
+    ></script>
+    <script async="" src="./Racing-Limit_files/apstag.js.download"></script>
+    <script
+      defer=""
+      nomodule=""
+      src="./Racing-Limit_files/polyfills-c67a75d1b6f99dc8.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/44325.10d90aa61b2abd7e.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/84275-33b1d15a6508b257.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/8963.7e6a423d719823fe.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/47966.d27efc8f02bee29c.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/92977.ec8bc7aac359fd39.js.download"
+    ></script>
+    <script
+      defer=""
+      src="./Racing-Limit_files/24313.937c93e3e81bd309.js.download"
+    ></script>
+    <script
+      src="./Racing-Limit_files/webpack-58cc3d9e08668b3d.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/framework-75746eeb80cbf23f.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/main-f7939f6559255d67.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/_app-2efd191eafd536bb.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/24582-c87cd9b32a498ccd.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/76287-5386e2a8fb703f24.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/25199-2bb47801b7311e8f.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/17212-ffc210e66aec5b54.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/game-95cb94db4b2cbf2b.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/_buildManifest.js.download"
+      defer=""
+    ></script>
+    <script
+      src="./Racing-Limit_files/_ssgManifest.js.download"
+      defer=""
+    ></script>
+    <script>
+      window.czyVariables = {
+        countryCode: "IN",
+        device: {
+          os: { name: "Windows", version: "10" },
+          browser: { name: "Chrome", version: "131.0.0.0", major: "131" },
+          device: {},
+          engine: { name: "Blink", version: "131.0.0.0" },
+        },
+      };
+      window.countryCode = "IN";
+      window.device = {
+        os: { name: "Windows", version: "10" },
+        browser: { name: "Chrome", version: "131.0.0.0", major: "131" },
+        device: {},
+        engine: { name: "Blink", version: "131.0.0.0" },
+      };
+    </script>
+    <style data-emotion="css-global animation-1nudq4e" data-s="">
+      @-webkit-keyframes animation-1nudq4e {
+        50% {
+          -webkit-transform: translateX(1.5px) rotate(2deg);
+          -moz-transform: translateX(1.5px) rotate(2deg);
+          -ms-transform: translateX(1.5px) rotate(2deg);
+          transform: translateX(1.5px) rotate(2deg);
+        }
+        100% {
+          -webkit-transform: translateX(-1.5px) rotate(-2deg);
+          -moz-transform: translateX(-1.5px) rotate(-2deg);
+          -ms-transform: translateX(-1.5px) rotate(-2deg);
+          transform: translateX(-1.5px) rotate(-2deg);
+        }
+      }
+      @keyframes animation-1nudq4e {
+        50% {
+          -webkit-transform: translateX(1.5px) rotate(2deg);
+          -moz-transform: translateX(1.5px) rotate(2deg);
+          -ms-transform: translateX(1.5px) rotate(2deg);
+          transform: translateX(1.5px) rotate(2deg);
+        }
+        100% {
+          -webkit-transform: translateX(-1.5px) rotate(-2deg);
+          -moz-transform: translateX(-1.5px) rotate(-2deg);
+          -ms-transform: translateX(-1.5px) rotate(-2deg);
+          transform: translateX(-1.5px) rotate(-2deg);
+        }
+      }
+    </style>
+    <style data-emotion="css-global animation-61bdi0" data-s="">
+      @-webkit-keyframes animation-61bdi0 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes animation-61bdi0 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./Racing-Limit_files/36d99e02e1842e88.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./Racing-Limit_files/ba2c6935142c49b9.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./Racing-Limit_files/ade6780fa55fa894.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./Racing-Limit_files/f7a53ff2be89952c.css"
+    />
+    <script src="./Racing-Limit_files/js(1)" async=""></script>
+    <script
+      src="./Racing-Limit_files/rafvertizing-v10.js.download"
+      async=""
+    ></script>
+    <style id="_goober">
+      .go1475592160 {
+        height: 0;
+      }
+      .go1671063245 {
+        height: auto;
+      }
+      .go1888806478 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+      }
+      @media (min-width: 600px) {
+        .go1888806478 {
+          flex-grow: initial;
+          min-width: 288px;
+        }
+      }
+      .go167266335 {
+        background-color: #313131;
+        font-size: 0.875rem;
+        line-height: 1.43;
+        letter-spacing: 0.01071em;
+        color: #fff;
+        align-items: center;
+        padding: 6px 16px;
+        border-radius: 4px;
+        box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+          0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+      }
+      .go3162094071 {
+        padding-left: 20px;
+      }
+      .go3844575157 {
+        background-color: #313131;
+      }
+      .go1725278324 {
+        background-color: #43a047;
+      }
+      .go3651055292 {
+        background-color: #d32f2f;
+      }
+      .go4215275574 {
+        background-color: #ff9800;
+      }
+      .go1930647212 {
+        background-color: #2196f3;
+      }
+      .go946087465 {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+      }
+      .go703367398 {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding-left: 16px;
+        margin-right: -8px;
+      }
+      .go3963613292 {
+        width: 100%;
+        position: relative;
+        transform: translateX(0);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        min-width: 288px;
+      }
+      .go1141946668 {
+        box-sizing: border-box;
+        display: flex;
+        max-height: 100%;
+        position: fixed;
+        z-index: 1400;
+        height: auto;
+        width: auto;
+        transition: top 300ms ease 0ms, right 300ms ease 0ms,
+          bottom 300ms ease 0ms, left 300ms ease 0ms, max-width 300ms ease 0ms;
+        pointer-events: none;
+        max-width: calc(100% - 40px);
+      }
+      .go1141946668 .notistack-CollapseWrapper {
+        padding: 6px 0px;
+        transition: padding 300ms ease 0ms;
+      }
+      @media (max-width: 599.95px) {
+        .go1141946668 {
+          width: 100%;
+          max-width: calc(100% - 32px);
+        }
+      }
+      .go3868796639 .notistack-CollapseWrapper {
+        padding: 2px 0px;
+      }
+      .go3118922589 {
+        top: 14px;
+        flex-direction: column;
+      }
+      .go1453831412 {
+        bottom: 14px;
+        flex-direction: column-reverse;
+      }
+      .go4027089540 {
+        left: 20px;
+      }
+      @media (min-width: 600px) {
+        .go4027089540 {
+          align-items: flex-start;
+        }
+      }
+      @media (max-width: 599.95px) {
+        .go4027089540 {
+          left: 16px;
+        }
+      }
+      .go2989568495 {
+        right: 20px;
+      }
+      @media (min-width: 600px) {
+        .go2989568495 {
+          align-items: flex-end;
+        }
+      }
+      @media (max-width: 599.95px) {
+        .go2989568495 {
+          right: 16px;
+        }
+      }
+      .go4034260886 {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      @media (min-width: 600px) {
+        .go4034260886 {
+          align-items: center;
+        }
+      }
+    </style>
+    <script src="./Racing-Limit_files/client" async=""></script>
+    <script src="./Racing-Limit_files/prebid.js.download" async=""></script>
+    <script src="./Racing-Limit_files/prebid-v8.js.download" async=""></script>
+    <script src="./Racing-Limit_files/f.txt" async=""></script>
+    <style id="googleidentityservice_button_styles">
+      .qJTHM {
+        -webkit-user-select: none;
+        color: #202124;
+        direction: ltr;
+        -webkit-touch-callout: none;
+        font-family: "Roboto-Regular", arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 400;
+        margin: 0;
+        overflow: hidden;
+        -webkit-text-size-adjust: 100%;
+      }
+      .ynRLnc {
+        left: -9999px;
+        position: absolute;
+        top: -9999px;
+      }
+      .L6cTce {
+        display: none;
+      }
+      .bltWBb {
+        word-break: break-all;
+      }
+      .hSRGPd {
+        color: #1a73e8;
+        cursor: pointer;
+        font-weight: 500;
+        text-decoration: none;
+      }
+      .Bz112c-W3lGp {
+        height: 16px;
+        width: 16px;
+      }
+      .Bz112c-E3DyYd {
+        height: 20px;
+        width: 20px;
+      }
+      .Bz112c-r9oPif {
+        height: 24px;
+        width: 24px;
+      }
+      .Bz112c-uaxL4e {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+      .LgbsSe-Bz112c {
+        display: block;
+      }
+      .S9gUrf-YoZ4jf,
+      .S9gUrf-YoZ4jf * {
+        border: none;
+        margin: 0;
+        padding: 0;
+      }
+      .fFW7wc-ibnC6b > .aZ2wEe > div {
+        border-color: #4285f4;
+      }
+      .P1ekSe-ZMv3u > div:nth-child(1) {
+        background-color: #1a73e8 !important;
+      }
+      .P1ekSe-ZMv3u > div:nth-child(2),
+      .P1ekSe-ZMv3u > div:nth-child(3) {
+        background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)
+          ),
+          linear-gradient(to right, #1a73e8, #1a73e8) !important;
+      }
+      .haAclf {
+        display: inline-block;
+      }
+      .nsm7Bb-HzV7m-LgbsSe {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: background-color 0.218s, border-color 0.218s;
+        transition: background-color 0.218s, border-color 0.218s;
+        -webkit-user-select: none;
+        -webkit-appearance: none;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #dadce0;
+        color: #3c4043;
+        cursor: pointer;
+        font-family: "Google Sans", arial, sans-serif;
+        font-size: 14px;
+        height: 40px;
+        letter-spacing: 0.25px;
+        outline: none;
+        overflow: hidden;
+        padding: 0 12px;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: auto;
+      }
+      @media screen and (-ms-high-contrast: active) {
+        .nsm7Bb-HzV7m-LgbsSe {
+          border: 2px solid windowText;
+          color: windowText;
+        }
+      }
+      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe {
+        font-size: 14px;
+        height: 32px;
+        letter-spacing: 0.25px;
+        padding: 0 10px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe {
+        font-size: 11px;
+        height: 20px;
+        letter-spacing: 0.3px;
+        padding: 0 8px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe {
+        padding: 0;
+        width: 40px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe {
+        width: 32px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe {
+        width: 20px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe {
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc {
+        border: none;
+        color: #fff;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc {
+        background-color: #1a73e8;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
+        background-color: #202124;
+        color: #e8eaed;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        height: 18px;
+        margin-right: 8px;
+        min-width: 18px;
+        width: 18px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        height: 14px;
+        min-width: 14px;
+        width: 14px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        height: 10px;
+        min-width: 10px;
+        width: 10px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        margin-left: 8px;
+        margin-right: -4px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        margin: 0;
+        padding: 10px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        padding: 8px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        padding: 4px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-top-left-radius: 3px;
+        border-top-left-radius: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background-color: #fff;
+        height: 36px;
+        margin-left: -10px;
+        margin-right: 12px;
+        min-width: 36px;
+        width: 36px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c,
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+        margin: 0;
+        padding: 0;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        height: 28px;
+        margin-left: -8px;
+        margin-right: 10px;
+        min-width: 28px;
+        width: 28px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        height: 16px;
+        margin-left: -6px;
+        margin-right: 8px;
+        min-width: 16px;
+        width: 16px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        margin-left: 2px;
+        margin-right: 0;
+        padding: 0;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-radius: 18px;
+        border-radius: 18px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-radius: 14px;
+        border-radius: 14px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-between;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        height: 100%;
+        position: relative;
+        width: 100%;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX {
+        justify-content: center;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        font-family: "Google Sans", arial, sans-serif;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+        font-weight: 300;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+        -webkit-flex-grow: 0;
+        flex-grow: 0;
+      }
+      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+        -webkit-transition: background-color 0.218s;
+        transition: background-color 0.218s;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .nsm7Bb-HzV7m-LgbsSe:hover,
+      .nsm7Bb-HzV7m-LgbsSe:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: #d2e3fc;
+        outline: none;
+      }
+      .nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+      .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+        background: rgba(66, 133, 244, 0.04);
+      }
+      .nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+        background: rgba(66, 133, 244, 0.1);
+      }
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+        background: rgba(255, 255, 255, 0.24);
+      }
+      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+        background: rgba(255, 255, 255, 0.32);
+      }
+      .nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY {
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        height: 20px;
+        margin-left: -4px;
+        margin-right: 8px;
+        min-width: 20px;
+        width: 20px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+        font-family: "Roboto";
+        font-size: 12px;
+        text-align: left;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        color: #5f6368;
+        fill: #5f6368;
+        font-size: 11px;
+        font-weight: 400;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc
+        .nsm7Bb-HzV7m-LgbsSe-BPrWId
+        .K4efff {
+        color: #e8eaed;
+        fill: #e8eaed;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c {
+        height: 18px;
+        margin: -3px -3px -3px 2px;
+        min-width: 18px;
+        width: 18px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-top-left-radius: 0;
+        border-top-left-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0;
+        -webkit-border-top-right-radius: 3px;
+        border-top-right-radius: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-left: 12px;
+        margin-right: -10px;
+      }
+      .nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK
+        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+        -webkit-border-radius: 18px;
+        border-radius: 18px;
+      }
+      .L5Fo6c-sM5MNb {
+        border: 0;
+        display: block;
+        left: 0;
+        position: relative;
+        top: 0;
+      }
+      .L5Fo6c-bF1uUb {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .L5Fo6c-bF1uUb:focus {
+        border: none;
+        outline: none;
+      }
+      sentinel {
+      }
+    </style>
+    <link
+      id="googleidentityservice"
+      type="text/css"
+      media="all"
+      href="./Racing-Limit_files/style"
+      rel="stylesheet"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <script src="./Racing-Limit_files/f(1).txt" async=""></script>
+    <link
+      href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202501160101/gpt"
+      rel="compression-dictionary"
+    />
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(2).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(3).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(4).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(5).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(6).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(7).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(8).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(9).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(10).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(11).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(12).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(13).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(14).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(15).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(16).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(17).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(18).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(19).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(20).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(21).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(22).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(23).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(24).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(25).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(26).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(27).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(28).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(29).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(30).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(31).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(32).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(33).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(34).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(35).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(36).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(37).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(38).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(39).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(40).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(41).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(42).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(43).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(44).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(45).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(46).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(47).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(48).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(49).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(50).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(51).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(52).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(53).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(54).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(55).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(56).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(57).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(58).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(59).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(60).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(61).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(62).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(63).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(64).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(65).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(66).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(67).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(68).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(69).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(70).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(71).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(72).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(73).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(74).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(75).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(76).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(77).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(78).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(79).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(80).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(81).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(82).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(83).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(84).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(85).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(86).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(87).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(88).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(89).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(90).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(91).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(92).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(93).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(94).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(95).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(96).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(97).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(98).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(99).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(100).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(101).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(102).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(103).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(104).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(105).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(106).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(107).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(108).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(109).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(110).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(111).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(112).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(113).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(114).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(115).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(116).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(117).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(118).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(119).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(120).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(121).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(122).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(123).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(124).txt"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./Racing-Limit_files/f(125).txt"
+    ></script>
+    <meta
+      http-equiv="origin-trial"
+      content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <script src="./Racing-Limit_files/f(1).txt" async=""></script>
+    <link
+      href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202501160101/gpt"
+      rel="compression-dictionary"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <script src="./Racing-Limit_files/f(1).txt" async=""></script>
+    <link
+      href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202501160101/gpt"
+      rel="compression-dictionary"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <script src="./Racing-Limit_files/f(1).txt" async=""></script>
+    <link
+      href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202501160101/gpt"
+      rel="compression-dictionary"
+    />
+  </head>
+  <body dir="ltr" style="overflow: unset">
+    <div id="__next">
+      <div class="__className_c77b14 css-1f20jmh">
+        <div class="css-ta5pm1"></div>
+        <!--$--><!--/$-->
+        <div class="css-cr2mqg"></div>
+        <main id="layoutMain" class="css-t2sft">
+          <div class="css-linpkp">
+            <img
+              alt=""
+              src="./Racing-Limit_files/background2.jpg"
+              class="css-19dlbhf"
+            />
+          </div>
+          <div id="layoutMainWrapper" style="position: relative">
+            <div class="GamePageDesktop_main__j29h7">
+              <div
+                class="GamePageDesktop_mainContainer__0HDvy"
+                id="gamePageMainContainer"
+              >
+                <div class="GamePageDesktop_gfContainer__vu1o_">
+                  <div class="GamePageDesktop_gfAspectRatioContainer__nr5Vm">
+                    <div class="css-uwwqev">
+                      <div
+                        class="GameContainer"
+                        style="
+                          position: relative;
+                          width: 100%;
+                          height: 100%;
+                          background-color: #13141e;
+                        "
+                      >
+                        <iframe
+                          id="game-iframe"
+                          src="./Racing-Limit_files/index.html"
+                          title="Racing Limits"
+                          scrolling="no"
+                          allow="autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope; "
+                          allowfullscreen=""
+                          sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads  allow-popups allow-popups-to-escape-sandbox"
+                          loading="eager"
+                          importance="high"
+                          data-hj-allow-iframe="true"
+                          style="
+                            border: 0px;
+                            margin: 0px;
+                            padding: 0px;
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                          "
+                          >Racing Limits is a well-designed car game. Play it on
+                          CrazyGames.com, free of charge. It is unblocked. The
+                          game is made with HTML5 to run smoothly in most
+                          browsers. In addition to playing Racing Limits as a
+                          HTML5 game, you can also play it on your Android
+                          devices and on your iPhone and iPad. It contains
+                          detailed keyboard and mouse controls . That way, it is
+                          easy to see how to play the game. If you enjoy playing
+                          it, make sure to take a look at our other car games or
+                          <a
+                            href="https://www.crazygames.com/game/rally-racer-dirt"
+                            target="_blank"
+                            >Rally Racer Dirt</a
+                          >
+                          and
+                          <a
+                            href="https://www.crazygames.com/game/night-city-racing"
+                            target="_blank"
+                            >Night City Racing</a
+                          >.</iframe
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="GamePageDesktop_leaderboardContainer__NClZo"></div>
+              </div>
+              <div class="GamePageDesktop_rightSidebar__WCm0P">
+                <div class="GamePageDesktop_rightMpuContainer___CjJD">
+                  <div class="" style="width: 100%; display: block">
+                    <div
+                      style="
+                        text-align: center;
+                        font-size: 8px;
+                        font-weight: 400;
+                        letter-spacing: 1.6px;
+                        margin-left: 0;
+                        transform: translate(50%);
+                        right: 50%;
+                        top: 258px;
+                      "
+                      class="css-mk0kh9"
+                    >
+                      Advertisement
+                    </div>
+                  </div>
+                </div>
+                <div class="GamePageDesktop_rightGridContainer__J7zYw"></div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <next-route-announcer
+      ><p
+        aria-live="assertive"
+        id="__next-route-announcer__"
+        role="alert"
+        style="
+          border: 0px;
+          clip: rect(0px, 0px, 0px, 0px);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0px;
+          position: absolute;
+          width: 1px;
+          white-space: nowrap;
+          overflow-wrap: normal;
+        "
+      ></p
+    ></next-route-announcer>
+    <script id="geoEdgeKeyScript" data-nscript="afterInteractive">
+      window.grumi = {
+        cfg: {
+          advs: {
+            5056133175: true,
+            5093783161: true,
+            134924547: true,
+            4939050616: true,
+            4939361715: true,
+            4569251936: true,
+            4946352844: true,
+            exclude: true,
+          },
+        },
+        key: "06762925-bf7a-4990-92f3-085e22182c36",
+      };
+    </script>
+    <iframe
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+      src="./Racing-Limit_files/saved_resource.html"
+    ></iframe>
+    <div id="AZJUSpftxLwH" style="display: none"></div>
+    <script
+      src="./Racing-Limit_files/grumi-ip.js.download"
+      id="geoEdgeScript"
+      data-nscript="lazyOnload"
+    ></script>
+    <iframe
+      src="./Racing-Limit_files/saved_resource(1).html"
+      style="display: none"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737282873584"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820.html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737282903591"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(1).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737282933606"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(2).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737282943904"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(3).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737283452610"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(4).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737283482653"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(5).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737283512662"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(6).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737283542754"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(7).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737283572580"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(8).html"
+      style="display: none; visibility: hidden"
+    ></iframe
+    ><iframe
+      allow="join-ad-interest-group"
+      data-tagging-id="AW-312835820"
+      data-load-time="1737281653863"
+      height="0"
+      width="0"
+      src="./Racing-Limit_files/312835820(9).html"
+      style="display: none; visibility: hidden"
+    ></iframe>
+    <div id="AZJUSpftxLwH" style="display: none"></div>
+    <iframe
+      src="./Racing-Limit_files/saved_resource(2).html"
+      style="display: none"
+    ></iframe
+    ><iframe
+      name="goog_topics_frame"
+      src="./Racing-Limit_files/topics_frame.html"
+      style="display: none"
+    ></iframe>
+    <div id="AZJUSpftxLwH" style="display: none"></div>
+    <iframe
+      src="./Racing-Limit_files/saved_resource(3).html"
+      style="display: none"
+    ></iframe
+    ><iframe
+      name="goog_topics_frame"
+      src="./Racing-Limit_files/topics_frame(1).html"
+      style="display: none"
+    ></iframe>
+    <div id="AZJUSpftxLwH" style="display: none"></div>
+    <iframe
+      src="./Racing-Limit_files/saved_resource(4).html"
+      style="display: none"
+    ></iframe
+    ><iframe
+      name="goog_topics_frame"
+      src="./Racing-Limit_files/topics_frame(2).html"
+      style="display: none"
+    ></iframe>
+  </body>
+</html>
+
+
+      </textarea
+        >
+
+        <button
+          class="copy-btn"
+          onclick="copyToClipboard('html-code')"
+          aria-label="Copy HTML code"
+        >
+          Copy HTML
+        </button>
+        <span id="html-msg" class="copy-msg">Copied!</span>
+      </div>
+
+      <div class="recommended">
+        <h2>Recommended Games</h2>
+
+        <div class="game-card">
+          <img src="Snake Game.png" alt="Racing Limit" />
+          <h3>Vanilla JS Snake</h3>
+          <p>Just view and Get snake and conquered the Ground !</p>
+          <a href="web-page_Vanilla-JS-Snake.html">Get now</a>
+        </div>
+       
+
+        <div class="game-card">
+          <img src="Flappy Bird.jpg" alt="Flappy Bird Clone" />
+          <h3>Flappy Bird Clone</h3>
+          <p>A fun endless side-scrolling game where you dodge pipes.</p>
+          <a href="web-page_Flappy-Ball.html">Get now</a>
+        </div>
+
+        
+
+       
+    </div>
+
+    <script>
+      function copyToClipboard(id) {
+        var textarea = document.getElementById(id);
+        textarea.select();
+        textarea.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        var msgId = id + "-msg";
+        var msgElement = document.getElementById(msgId);
+        msgElement.style.display = "inline";
+
+        setTimeout(function () {
+          msgElement.style.display = "none";
+        }, 2000);
+      }
+
+      const toggleDarkMode = () => {
+        document.body.classList.toggle("dark-mode");
+      };
+    </script>
+  </body>
+</html>
